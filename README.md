@@ -1,33 +1,12 @@
 # KDH Biomedicals — website
 
 A modern, responsive, static marketing site for **KDH Biomedicals Pvt. Ltd.**,
-a Mumbai-based distributor of advanced in-vitro diagnostics (IVD).
+a Mumbai-based distributor of advanced laboratory diagnostics.
 
 This is a from-scratch redesign of the company's web presence. It is plain
 HTML, CSS and a little vanilla JavaScript — **no build step, no dependencies** —
 so it can be hosted anywhere that serves static files (GitHub Pages, Netlify,
 Cloudflare Pages, Apache/Nginx, S3, etc.).
-
-## Design language
-
-The theme is derived from the **kdh logo** — a sage-green oval (`#4e9d81`)
-with a white lowercase wordmark — extended into a custom IVD visual system:
-
-- **Palette:** logo green + deep forest ink, with colorimetric **amber**,
-  qPCR **cyan** and QC **coral** as data accents.
-- **Type:** Poppins (headings), Inter (body), IBM Plex Mono (the "lab
-  annotation" voice used for eyebrows, captions and figure IDs).
-- **Signature graphics** — hand-generated, animated SVG, in `assets/`:
-  - `elisa-plate.svg` — a 96-well ELISA microplate with a colorimetric
-    serial-dilution gradient that "develops" across the wells.
-  - `curve-ct.svg` — qPCR amplification curves crossing the C<sub>t</sub> threshold.
-  - `curve-calibration.svg` — a 4-parameter-logistic standard curve.
-  - `chart-lj.svg` — a Levey-Jennings quality-control chart.
-  - `motif-antibody.svg` — an antigen–antibody sandwich (ELISA).
-  - `motif-helix.svg` — a DNA double helix.
-  Animations are progressive enhancement: the **final state renders by
-  default**, and the intro animation only runs under
-  `prefers-reduced-motion: no-preference`.
 
 ## Pages
 
@@ -67,10 +46,6 @@ python3 -m http.server 8000
 The copy was reconstructed from the company's public information. A few items
 are sensible placeholders that the owner should confirm or replace:
 
-- **Logo** — `assets/logo.svg` is an accurate recreation of the kdh mark
-  (wordmark set in the geometric Jost typeface inside the brand-green oval).
-  If you have the **official logo file**, drop it in and update the
-  `<img src="assets/logo.svg">` references for a pixel-perfect mark.
 - **Phone number** — not published, so the contact page invites email instead.
   Add a real number in `contact.html` and the footers if you have one.
 - **Business hours** — "Mon–Sat, 10:00–18:00 IST" is an assumption.
