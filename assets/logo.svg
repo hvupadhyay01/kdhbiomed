@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-label="KDH Biomedicals">
+  <defs>
+    <linearGradient id="kdhg" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b5e80"/>
+      <stop offset="0.55" stop-color="#1593b8"/>
+      <stop offset="1" stop-color="#18b388"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#kdhg)"/>
+  <!-- DNA helix mark -->
+  <g stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.95">
+    <path d="M17 12c0 6 14 6 14 12s-14 6-14 12"/>
+    <path d="M31 12c0 6-14 6-14 12s14 6 14 12"/>
+    <line x1="18.5" y1="16" x2="29.5" y2="16"/>
+    <line x1="20.5" y1="20.5" x2="27.5" y2="20.5"/>
+    <line x1="20.5" y1="27.5" x2="27.5" y2="27.5"/>
+    <line x1="18.5" y1="32" x2="29.5" y2="32"/>
+  </g>
+</svg>
